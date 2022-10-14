@@ -46,6 +46,7 @@ defaultLanguage: en-US
 
 # Enabled languages
 enabledLanguages:
+- ru-RU
 - en-US
 - es-ES
 - pt-BR
