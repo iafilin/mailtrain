@@ -181,6 +181,10 @@ else
     cat > server/services/workers/reports/config/production.yaml <<EOT
 mysql:
   host: $MYSQL_HOST
+  database: $MYSQL_DATABASE
+  user: $MYSQL_USER
+  password: $MYSQL_PASSWORD
+  port: $MYSQL_PORT
 log:
   level: warn
 EOT
